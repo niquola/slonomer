@@ -1,0 +1,11 @@
+[package]
+name = "pgrust"
+version = "0.1.0"
+authors = ["niquola <niquola@gmail.com>"]
+
+# https://github.com/pingcap/rust-prometheus
+[dependencies]
+time = "0.1.12"
+regex = "0.1.41"
+postgres = "0.15"
+prometheus = "0.3"
